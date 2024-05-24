@@ -5,7 +5,7 @@ const Navbar = styled('nav')(() => ({
   backgroundColor: '#333',
   color: '#fff',
   width: '100%',
-  position: 'absolute',
+  position: 'fixed',
   top: 0,
   left: 0,
   zIndex: 1000,
@@ -31,7 +31,7 @@ const TopNavbar = () => {
   return (
     <div>
       <Navbar>
-        <ul style={{}}>
+        <ul style={{ listStyle: 'none', padding: 12, margin: 12 }}>
           <ListItem>
             <Link href={'/'}>Home</Link>
           </ListItem>
