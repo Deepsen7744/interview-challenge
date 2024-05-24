@@ -14,7 +14,7 @@ const Navbar = styled('nav')(() => ({
 const ListItem = styled('li')(() => ({
   display: 'inline-block',
   marginRight: '20px',
-  fontSize: '18px',
+  fontSize: '19px',
   cursor: 'pointer',
 }));
 
